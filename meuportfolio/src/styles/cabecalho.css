@@ -1,11 +1,51 @@
 .divBox {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -50px;
 }
 
 img {
     width: 40px;
 }
 
-#imgLinkedin {
-    width: 50px;
+#main-section {
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+#apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkIcones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#jobTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
