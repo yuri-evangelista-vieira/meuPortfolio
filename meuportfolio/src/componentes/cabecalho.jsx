@@ -1,7 +1,7 @@
 import React from "react"
 import '../styles/cabecalho.css'
 
-import ImgLinkedin from '../assets/imagens/iconeLinkedin.avif'
+import ImgLinkedin from '../assets/imagens/iconeLinkedin.webp'
 import ImgGithub from '../assets/imagens/IconeGitHub.png'
 import ImgCurriculo from '../assets/imagens/Curriculo.png'
 
