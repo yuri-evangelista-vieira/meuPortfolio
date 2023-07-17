@@ -1,5 +1,5 @@
-body {
-    background: radial-gradient(circle at center, #003366, #000);
+.body {
+    background: radial-gradient(circle at center, #306397d0, #000);
     margin: 0;
     height: 100vh;
     display: flex;
@@ -9,70 +9,59 @@ body {
 }
 
 .divBox {
-    /* background: rgba(0, 0, 0, 0.5); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
+    overflow-y: auto;
 }
 
-h1, h2 {
+.title, .subtitle {
     color: #FFD700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+.title {
     font-size: 100px;
-    margin: 0;
-    padding: 0;
 }
 
-h2 {
+.subtitle {
     font-size: 40px;
-    margin: 0;
-    padding: 0;
     position: absolute;
     top: -50px;
 }
 
-img {
+.icon {
     width: 40px;
     filter: hue-rotate(90deg);
 }
 
-a {
+.link {
     transition: color 0.3s;
     color: white;
 }
 
-a:hover{
+.link:hover{
     transform: scale(1.1);
     color: #FF4500;
 }
 
-#main-section {
+.main-section, .jobTitulo, .apresentacao {
     display: flex;
     align-items:center;
-    gap: 20px;
     flex-direction: column;
+}
+
+.main-section {
+    gap: 20px;
     position: relative;
 }
 
-#apresentacao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#linkIcones {
+.linkIcones {
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
-
-#jobTitulo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }

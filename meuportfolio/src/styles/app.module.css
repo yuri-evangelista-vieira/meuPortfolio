@@ -1,0 +1,25 @@
+.background{
+    background-color: aqua;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* continue a manter a altura do container do título */
+    color: #FFD700; /* altera a cor do texto para um tom dourado */
+    font-size: 3rem; /* aumenta o tamanho da fonte */
+    text-transform: uppercase; /* torna todo o texto maiúsculo */
+    letter-spacing: 2px; /* adiciona um pequeno espaçamento entre as letras */
+    font-weight: bold; /* torna o texto em negrito */
+    margin-top: 2rem; /* adiciona uma margem superior para dar algum espaço após a divisão */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adiciona uma sombra ao texto para melhorar a legibilidade */
+}
+
+.divisao {
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #091420be, transparent);
+    /* background-color: beige; */
+}
